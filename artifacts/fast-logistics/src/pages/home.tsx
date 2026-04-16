@@ -32,7 +32,7 @@ import {
   SelectValue 
 } from "@/components/ui/select";
 import { useToast } from "@/hooks/use-toast";
-import logoImg from "@assets/IMG_0960_1776323813374.png";
+import logoImg from "@assets/image_1776324844085.png";
 
 const fadeIn = {
   hidden: { opacity: 0, y: 20 },
@@ -82,7 +82,9 @@ export default function Home() {
       <nav className={`fixed top-0 left-0 right-0 z-50 transition-all duration-300 ${isScrolled ? 'bg-background/90 backdrop-blur-md border-b border-white/10 py-3' : 'bg-transparent py-5'}`}>
         <div className="container mx-auto px-4 md:px-6 flex items-center justify-between">
           <a href="#" onClick={(e) => { e.preventDefault(); scrollToSection('hero'); }} className="flex items-center gap-3">
-            <img src={logoImg} alt="Fast Logistics L.L.C" className="h-10 w-auto" />
+            <div className="h-9 w-9 rounded-lg bg-white flex items-center justify-center p-1 flex-shrink-0">
+              <img src={logoImg} alt="Fast Logistics L.L.C" className="h-full w-full object-contain" />
+            </div>
             <span className="font-bold text-xl tracking-tight hidden sm:block">FAST LOGISTICS</span>
           </a>
 
@@ -447,7 +449,9 @@ export default function Home() {
         <div className="container mx-auto px-4 md:px-6">
           <div className="flex flex-col md:flex-row justify-between items-center gap-6">
             <div className="flex items-center gap-3">
-              <img src={logoImg} alt="Fast Logistics L.L.C" className="h-8 w-auto opacity-80" />
+              <div className="h-8 w-8 rounded-md bg-white flex items-center justify-center p-1 flex-shrink-0">
+                <img src={logoImg} alt="Fast Logistics L.L.C" className="h-full w-full object-contain" />
+              </div>
               <span className="font-bold text-lg tracking-tight text-white/80">FAST LOGISTICS L.L.C</span>
             </div>
             
