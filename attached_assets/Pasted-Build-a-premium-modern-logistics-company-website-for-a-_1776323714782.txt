@@ -1,0 +1,123 @@
+Build a premium, modern logistics company website for a client called "Fast Logistics L.L.C".
+
+Goal:
+Create a very professional, high-converting, modern 2025-style website with strong UI/UX. The design should feel clean, trustworthy, fast, and premium — similar to high-end transport/logistics companies, not like a cheap template.
+
+Business context:
+Fast Logistics L.L.C is a transport and international logistics company based in Prishtina, Kosovo. They offer road transport, container transport, import/export logistics, and transport from ports such as Durres and Thessaloniki to Kosovo. The website should help them look serious, modern, and established, so customers can quickly trust them and contact them.
+
+Tech:
+- Use Next.js
+- Use TypeScript
+- Use Tailwind CSS
+- Use shadcn/ui components where useful
+- Fully responsive
+- Smooth animations
+- Clean component structure
+- Modern spacing, typography, cards, icons, and sections
+- Focus heavily on UI/UX quality
+
+Design style:
+- Premium dark + white + green brand accents
+- Use the brand green from their logo
+- Elegant gradients
+- Subtle glow effects
+- Modern glass / soft-shadow cards where appropriate
+- Very polished and minimal, not overcrowded
+- Strong visual hierarchy
+- Mobile-first but excellent desktop layout too
+- Animations should feel smooth and professional, not too much
+
+Pages / Sections needed:
+
+1. Hero Section
+- Big headline in Albanian
+- Professional subheadline
+- CTA buttons like:
+  - “Na Kontaktoni”
+  - “Kërko Ofertë”
+- A modern background related to transport/logistics
+- Add trust indicators like:
+  - International Transport
+  - Fast Delivery
+  - Reliable Service
+  - Prishtina Based
+
+2. Services Section
+Create beautiful service cards with icons and short descriptions for:
+- Transport tokësor
+- Transport ndërkombëtar
+- Transport me konteinerë
+- Import / Export
+- Transport nga porti i Durrësit
+- Transport nga porti i Selanikut
+- Transport i plotë dhe parcial
+
+3. About Section
+A professional section explaining who Fast Logistics is, what they do, and why customers should trust them.
+Make it feel corporate and credible.
+
+4. Why Choose Us
+Create a premium comparison/benefits section:
+- Shpejtësi
+- Siguri
+- Besueshmëri
+- Komunikim i qartë
+- Eksperiencë
+- Çmime konkuruese
+
+5. Process Section
+Show how the service works in simple steps:
+- Na kontaktoni
+- Na tregoni destinacionin / mallin
+- Ne organizojmë transportin
+- Dërgesa arrin në destinacion
+
+6. Contact Section
+Display contact info prominently:
+- Phone numbers
+- WhatsApp / Viber
+- Email
+- Location: Prishtinë
+Include a professional contact form:
+- Name
+- Phone
+- Email
+- Message
+- Transport type
+
+7. Footer
+Clean footer with logo, quick links, services, and contact info.
+
+Extra UI/UX requirements:
+- Add a sticky navbar
+- Add a mobile menu
+- Add hover animations on cards and buttons
+- Add subtle scroll reveal animations
+- Add a premium CTA banner before footer
+- Use relevant icons from lucide-react
+- Make the layout feel custom and expensive
+- Do not make it generic
+- Everything should look polished enough to present directly to a real client
+
+Content language:
+Main language should be Albanian.
+
+Example headline ideas:
+- Transport i shpejtë dhe i sigurt për biznesin tuaj
+- Zgjidhje profesionale për transport kombëtar dhe ndërkombëtar
+- Partneri juaj i besueshëm në logjistikë
+
+Important:
+- Make the homepage visually impressive
+- Prioritize trust and conversions
+- The customer should instantly feel that this is a serious company
+- Use placeholder logistics images in a clean premium way
+- Generate clean reusable components
+- Make the design look much better than a typical small business website
+
+Also:
+- Include SEO-friendly structure
+- Add proper section spacing
+- Add clean button styles
+- Make sure the website feels premium on both iPhone and desktop

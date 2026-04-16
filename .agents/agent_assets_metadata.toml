@@ -1,0 +1,20 @@
+uploads = []
+outputs = []
+
+[[generated]]
+id = "95tiF0GtXAbK8rfdXZJe1"
+uri = "file://artifacts/fast-logistics/public/hero-bg.png"
+type = "image"
+title = "Hero truck highway at dusk"
+
+[[generated]]
+id = "y2unJevArIVKuhS-zw_SW"
+uri = "file://artifacts/fast-logistics/public/port-bg.png"
+type = "image"
+title = "Aerial port with cargo containers"
+
+[[generated]]
+id = "uRkegIjMzzCFuL2IeW_Co"
+uri = "file://artifacts/fast-logistics/public/warehouse-bg.png"
+type = "image"
+title = "Logistics warehouse interior"
