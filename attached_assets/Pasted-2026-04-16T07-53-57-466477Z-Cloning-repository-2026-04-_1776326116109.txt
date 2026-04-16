@@ -1,0 +1,56 @@
+2026-04-16T07:53:57.466477Z	Cloning repository...
+2026-04-16T07:53:58.389728Z	From https://github.com/leonitxhini/fast-logistics
+2026-04-16T07:53:58.390137Z	 * branch            7bc18280893727b5408ea7b571ea648f1514032b -> FETCH_HEAD
+2026-04-16T07:53:58.390233Z	
+2026-04-16T07:53:58.467299Z	HEAD is now at 7bc1828 Saved progress at the end of the loop
+2026-04-16T07:53:58.467627Z	
+2026-04-16T07:53:58.503281Z	
+2026-04-16T07:53:58.503542Z	Using v2 root directory strategy
+2026-04-16T07:53:58.513788Z	Success: Finished cloning repository files
+2026-04-16T07:53:59.959601Z	Checking for configuration in a Wrangler configuration file (BETA)
+2026-04-16T07:53:59.96025Z	
+2026-04-16T07:54:01.050545Z	No Wrangler configuration file found. Continuing.
+2026-04-16T07:54:01.219005Z	Detected the following tools from environment: pnpm@10.11.1, nodejs@22.16.0
+2026-04-16T07:54:02.101101Z	Installing project dependencies: pnpm install
+2026-04-16T07:54:02.579336Z	Scope: all 9 workspace projects
+2026-04-16T07:54:02.651653Z	Lockfile is up to date, resolution step is skipped
+2026-04-16T07:54:02.677967Z	Progress: resolved 1, reused 0, downloaded 0, added 0
+2026-04-16T07:54:02.73434Z	Packages: +486
+2026-04-16T07:54:02.734609Z	++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+2026-04-16T07:54:03.681081Z	Progress: resolved 486, reused 0, downloaded 237, added 237
+2026-04-16T07:54:04.680164Z	Progress: resolved 486, reused 0, downloaded 319, added 298
+2026-04-16T07:54:05.684013Z	Progress: resolved 486, reused 0, downloaded 480, added 403
+2026-04-16T07:54:06.354559Z	Progress: resolved 486, reused 0, downloaded 486, added 486, done
+2026-04-16T07:54:06.547548Z	.../esbuild@0.27.3/node_modules/esbuild postinstall$ node install.js
+2026-04-16T07:54:06.625841Z	.../esbuild@0.27.3/node_modules/esbuild postinstall: Done
+2026-04-16T07:54:06.91354Z	
+2026-04-16T07:54:06.913785Z	devDependencies:
+2026-04-16T07:54:06.913843Z	+ prettier 3.8.1
+2026-04-16T07:54:06.913909Z	+ typescript 5.9.3
+2026-04-16T07:54:06.913958Z	
+2026-04-16T07:54:06.964863Z	. preinstall$ sh -c 'rm -f package-lock.json yarn.lock; case "$npm_config_user_agent" in pnpm/*) ;; *) echo "Use pnpm instead" >&2; exit 1 ;; esac'
+2026-04-16T07:54:06.979446Z	. preinstall: Done
+2026-04-16T07:54:07.121278Z	Done in 4.8s using pnpm v10.11.1
+2026-04-16T07:54:07.164708Z	Executing user command: pnpm --filter @workspace/fast-logistics run build
+2026-04-16T07:54:07.615283Z	
+2026-04-16T07:54:07.615652Z	> @workspace/fast-logistics@0.0.0 build /opt/buildhome/repo/artifacts/fast-logistics
+2026-04-16T07:54:07.616133Z	> vite build --config vite.config.ts
+2026-04-16T07:54:07.616321Z	
+2026-04-16T07:54:07.9814Z	[31mfailed to load config from /opt/buildhome/repo/artifacts/fast-logistics/vite.config.ts[39m
+2026-04-16T07:54:07.982752Z	[31merror during build:
+2026-04-16T07:54:07.982927Z	Error: PORT environment variable is required but was not provided.
+2026-04-16T07:54:07.983037Z	    at file:///opt/buildhome/repo/artifacts/fast-logistics/node_modules/.vite-temp/vite.config.ts.timestamp-1776326047834-c1dc791c5df4b.mjs:10:9
+2026-04-16T07:54:07.983079Z	    at ModuleJob.run (node:internal/modules/esm/module_job:274:25)
+2026-04-16T07:54:07.98314Z	    at async onImport.tracePromise.__proto__ (node:internal/modules/esm/loader:644:26)
+2026-04-16T07:54:07.983207Z	    at async loadConfigFromBundledFile (file:///opt/buildhome/repo/node_modules/.pnpm/vite@7.3.1_@types+node@25.3.5_jiti@2.6.1_lightningcss@1.31.1_tsx@4.21.0_yaml@2.8.2/node_modules/vite/dist/node/chunks/config.js:35909:12)
+2026-04-16T07:54:07.983317Z	    at async bundleAndLoadConfigFile (file:///opt/buildhome/repo/node_modules/.pnpm/vite@7.3.1_@types+node@25.3.5_jiti@2.6.1_lightningcss@1.31.1_tsx@4.21.0_yaml@2.8.2/node_modules/vite/dist/node/chunks/config.js:35797:17)
+2026-04-16T07:54:07.983388Z	    at async loadConfigFromFile (file:///opt/buildhome/repo/node_modules/.pnpm/vite@7.3.1_@types+node@25.3.5_jiti@2.6.1_lightningcss@1.31.1_tsx@4.21.0_yaml@2.8.2/node_modules/vite/dist/node/chunks/config.js:35764:42)
+2026-04-16T07:54:07.983455Z	    at async resolveConfig (file:///opt/buildhome/repo/node_modules/.pnpm/vite@7.3.1_@types+node@25.3.5_jiti@2.6.1_lightningcss@1.31.1_tsx@4.21.0_yaml@2.8.2/node_modules/vite/dist/node/chunks/config.js:35413:22)
+2026-04-16T07:54:07.983564Z	    at async createBuilder (file:///opt/buildhome/repo/node_modules/.pnpm/vite@7.3.1_@types+node@25.3.5_jiti@2.6.1_lightningcss@1.31.1_tsx@4.21.0_yaml@2.8.2/node_modules/vite/dist/node/chunks/config.js:33875:19)
+2026-04-16T07:54:07.983668Z	    at async CAC.<anonymous> (file:///opt/buildhome/repo/node_modules/.pnpm/vite@7.3.1_@types+node@25.3.5_jiti@2.6.1_lightningcss@1.31.1_tsx@4.21.0_yaml@2.8.2/node_modules/vite/dist/node/cli.js:629:10)[39m
+2026-04-16T07:54:08.014632Z	/opt/buildhome/repo/artifacts/fast-logistics:
+2026-04-16T07:54:08.014819Z	 ERR_PNPM_RECURSIVE_RUN_FIRST_FAIL  @workspace/fast-logistics@0.0.0 build: `vite build --config vite.config.ts`
+2026-04-16T07:54:08.014872Z	Exit status 1
+2026-04-16T07:54:08.046445Z	Failed: Error while executing user command. Exited with error code: 1
+2026-04-16T07:54:08.052381Z	Failed: build command exited with code: 1
+2026-04-16T07:54:08.697502Z	Failed: error occurred while running build command
